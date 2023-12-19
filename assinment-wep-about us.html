@@ -1,37 +1,65 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<meta charset="UTF-8">
+	<meta lang="en" >
 	<title>About Team</title>
 	<style>
 
-.programming-team {
-  font-size: 48px;
-  animation-name: slideIn;
-  animation-duration: 2s;
-  animation-timing-function: ease-in-out;
-  animation-iteration-count: 1;
-}
+	.home {
+			box-shadow: 0 0 10px rgba(0,0,0,0.8);
+			border: #000000 3px solid;
+            background-color:#ffffff ;
+			display: flex;
+			align-items: center;
+			max-width: 800px;
+			max-height: 40px;
+			margin: 0 auto;
+			padding: 20px;
+		}
+		.menu {
+			display: flex;
+			list-style: none;
+			margin: 0;
+			padding: 0;
+		
+		}
+		.menu li {
+			margin: 0 10px;
+		}
+		.menu li a {
+			border: #ffd803 solid;
+			color: #000000;
+			text-decoration: none;
+			padding: 10px;
+			border-radius: 5px;
 
-@keyframes slideIn {
-  from {
-    transform: translateX(50%);}to {transform: translateX(0); }}
+		}
+		.menu li a:hover {
+			background-color: #ffd803;
+		}
+
+
+
 
 
 
 		body {
+			
 			font-family: Arial, sans-serif;
-			background-color: #878500;
+			background-color: #ffffff;
 		}
 		h1 {
 			text-align: center;
-			color: #333;
+			color: #000000;
 		}
 		.container {
+			border: #000000 solid;
 			max-width: 800px;
 			margin: 0 auto;
 			padding: 20px;
-			background-color: #f2ff00;
-			box-shadow: 0 0 10px rgba(0,0,0,0.8);
+			background-color: #ffd803;
+			box-shadow: 0 0 15px rgba(0,0,0,0.8);
 		}
 		.team-member {
 			margin-bottom: 30px;
@@ -41,19 +69,19 @@
 			width: 100%;
 			max-width: 400px;
 			height: auto;
-			margin-bottom: 10px;
-			border-radius: 50%;
-			box-shadow: 0 0 10px rgba(0,0,0,0.8);
+			margin: 10px;
+			border-radius: 20%;
+			box-shadow: 0 0 10px rgb(0, 0, 0);
 		}
 		.team-member h2 {
-			font-size: 26px;
-			margin-bottom: 5px;
-			color: #ff0000;
+			font-size: 30px;
+			margin: 5px;
+			color: #ffffff;
 		}
 		.team-member p {
 			font-size: 18px;
-			margin-bottom: 10px;
-			color: #212121;
+			margin: 10px;
+			color: #3b3b3b;
 		}
 		.team-member ul {
 			list-style: none;
@@ -68,101 +96,55 @@
 		.team-member a {
 			display: inline-block;
 			padding: 10px 20px;
-			background-color: #ffffff;
-			color: #ff0000;
+			border: #ffffff  solid;
+			background-color: #ffd803;
+			color: #000000;
 			text-decoration: none;
 			border-radius: 5px;
-			transition: background-color 0.3s ease;
 		}
 		.team-member a:hover {
-			background-color: #f55d5d;
+			background-color:rgb(255, 255, 255);
 		}
 
-		.home {
-            background-color: orange;
-			display: flex;
-			justify-content: space-between;
-			align-items: center;
-			max-width: 800px;
-			max-height: 30px;
-			margin: 0 auto;
-			padding: 20px;
-		}
-		.menu {
-			display: flex;
-			list-style: none;
-			margin: 0;
-			padding: 0;
-		}
-		.menu li {
-			margin: 0 10px;
-		}
-		.menu li a {
-			color: #333;
-			text-decoration: none;
-			padding: 10px;
-			border-radius: 5px;
-			transition: background-color 0.3s ease;
-		}
-		.menu li a:hover {
-			background-color: #fff;
-			color: #333;
-		}
+		
 	</style>
 </head>
 <body>
 	<div class="home">
 		<ul class="menu">
 			<li><a href="#">Home</a></li>
-			<li><a href="assinment-wep-about us.html">About-Us</a></li>
 			<li><a href="#">Gallery</a></li>
 			<li><a href="#">University</a></li>
+			<li><a href="">About</a></li>
 		</ul>
-		<h1>Borg el-arab technology University</h1>
+		<h1>technological University</h1>
 	</div>
+	<br>
 	<div class="container">
-		<!-- <div>
-			<h2>who we are</h2>
-			<h3>We are a team of students at the University of Technology who decided to create a small project as a practice and training for some of what we study in our college</h3>
-		</div> -->
-
-
-		<h1 class="programming-team"><u>Programming Team</u></h1>
-
-
-		
-<!-- team leaders -->
+<h1 class="programming-team"><u>Programming Team</u></h1>
 <hr>
-
-<div class="team-member">
-	<img src="gareab.jpg" alt="Team Member">
-	<h2>Abdullah Gareab</h2>
-	<p>leader<br>Programmer</p>
-	<ul>
-		<li><a href="#"><b>Facebook</b></a></li>
-		<li><a href="#"><b>Twitter</b></a></li>
-		<li><a href="#"><b>LinkedIn</b></a></li>
-	</ul>
-</div>
+	<div class="team-member">
+		<img src="gareab.jpg" alt="Team Member">
+		<h2>Abdullah Gareab</h2>
+		<p>leader<br>Programmer</p>
+		<ul>
+			<li><a href="#"><b>Facebook</b></a></li>
+			<li><a href="#"><b>Twitter</b></a></li>
+			<li><a href="#"><b>LinkedIn</b></a></li>
+		</ul>
+	</div>
 <hr>
-
-<div class="team-member">
-	<img src="saker.jpg" alt="Team Member">
-	<h2>Ahmed Saker</h2>
-	<p>co-leader<br>Student in Borg El-Arab Technological University<br>Engineering artificial intelligent and machine learning<br>god willing</p>
-	<ul>
-		<li><a href="https://www.facebook.com/profile.php?id=100003484295059&mibextid=rS40aB7S9Ucbxw6v"><b>Facebook</b></a></li>
-		<li><a href="https://instagram.com/ahmed_sqr?igshid=NzZlODBkYWE4Ng=="><b>instagram</b></a></li>
-		<li><a href="https://www.linkedin.com/in/%D8%A7%D8%AD%D9%85%D8%AF-%D8%B5%D9%82%D8%B1-2a19b72a4?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><b>LinkedIn</b></a></li>
-	</ul>
-</div>
+	<div class="team-member">
+		<img src="saker.jpg" alt="Team Member">
+		<h2>Ahmed Saker</h2>
+		<p>co-leader<br>Student in Borg El-Arab Technological University<br>Engineering artificial intelligent and machine learning<br>god willing</p>
+		<ul>
+			<li><a href="https://www.facebook.com/profile.php?id=100003484295059&mibextid=rS40aB7S9Ucbxw6v"><b>Facebook</b></a></li>
+			<li><a href="https://instagram.com/ahmed_sqr?igshid=NzZlODBkYWE4Ng=="><b>instagram</b></a></li>
+			<li><a href="https://www.linkedin.com/in/%D8%A7%D8%AD%D9%85%D8%AF-%D8%B5%D9%82%D8%B1-2a19b72a4?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><b>LinkedIn</b></a></li>
+		</ul>
+	</div>
 <hr>
-
-
-
-
-
-		<!-- team members -->
 		<div class="team-member">
 			<img src="pero.jpg" alt="Team Member">
 			<h2>Pero Atef</h2>
@@ -174,17 +156,15 @@
 			</ul>
 		</div>
 <hr>
+	<div class="team-member">
+		<img src="gana.jpg" alt="Team Member">
+		<h2>Gana Abo El-Makarem</h2>
+		<p>stusdent in borg el arab Technological University</p>
+		<ul>
+			<li><a href="https://www.facebook.com/profile.php?id=100090939221256&mibextid=ZbWKwL"><b>Facebook</b></a></li>
 
-		<div class="team-member">
-			<img src="abdelhamed.jpg" alt="Team Member">
-			<h2>Abd El-hamed Ahmed</h2>
-			<p>Programmer</p>
-			<ul>
-				<li><a href="https://www.facebook.com/profile.php?id=100007161211431&mibextid=ZbWKwL"><b>Facebook</b></a></li>
-				<li><a href="https://instagram.com/__mido_ahmad?igshid=MzMyNGUyNmU2YQ=="><b>instagram</b></a></li>
-				<li><a href="https://discord.com/invite/7vFKart7"><b>discord</b></a></li>
-			</ul>
-		</div>
+		</ul>
+	</div>
 <hr>
 		<div class="team-member">
 			<img src="sara.jpg" alt="Team Member">
@@ -193,42 +173,78 @@
 		</div>	
 <hr>
 
-<div class="team-member">
-	<img src="aper2.jpg" alt="Team Member">
-	<h2>Abeer Abd El khalik</h2>
-	<p>I study at Burj Al Arab Technological University and work for Zahra page</p>
-	<ul>
-		<li><a href="https://www.instagram.com/bebo1gb?igshid=OGQ5ZDc2ODk2ZA=="><b>instagram</b></a></li>
-		<li><a href="https://www.linkedin.com/in/abeer-a-wahap-913639282?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><b>linkedin</b></a></li>
-		
-	</ul>
+	<div class="team-member">
+		<img src="aper2.jpg" alt="Team Member">
+		<h2>Abeer Abd El khalik</h2>
+		<p>I study at Burj Al Arab Technological University and work for Zahra page</p>
+		<ul>
+			<li><a href="https://www.instagram.com/bebo1gb?igshid=OGQ5ZDc2ODk2ZA=="><b>instagram</b></a></li>
+			<li><a href="https://www.linkedin.com/in/abeer-a-wahap-913639282?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><b>linkedin</b></a></li>
+			
+		</ul>
+	</div>
+<hr>
+	<div class="team-member">
+		<img src="farah.jpg" alt="Team Member">
+		<h2>Farha Salah Mohamed mekki
+		</h2>
+		<p>Programmer</p>
+		<ul>
+			<li><a href="https://www.linkedin.com/in/farha-salah-56987a261?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">linkedin</a></li>
+		</ul>
+	</div>
+<hr>
+
+	<div class="team-member">
+		<img src="fatma.jpg" alt="Team Member">
+		<h2>fatma Mohamed Elmosher</h2>
+		<p>stusdent in borg el arab Technological University</p>
+		<ul>
+			<li><a href="https://www.facebook.com/fatma.elmosheir?mibextid=ZbWKwL"><b>Facebook</b></a></li>
+			<li><a href="https://www.instagram.com/fatmaelmoshier3?igshid=MTNiYzNiMzkwZA=="><b>instagram</b></a></li>
+			<li><a href="https://www.linkedin.com/in/fatma-elmoshier-7ab9311a6?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><b>linkedin</b></a></li>
+
+		</ul>
+	</div>
+<hr>
+
+	<div class="team-member">
+		<img src="adle.jpg" alt="Team Member">
+		<h2>Adly habib adly</h2>
+		<p>stusdent in borg el arab Technological University</p>
+		<ul>
+			<li><a href="  https://www.facebook.com/bola.com11?mibextid=ZbWKwL"><b>Facebook</b></a></li>
+
+		</ul>
+	</div>
+<hr>
+
+	<div class="team-member">
+		<img src="abdelhamed.jpg" alt="Team Member">
+		<h2>Abd El-hamed Ahmed</h2>
+		<p>Student at Borg el-arab technological university graphic design and programming</p>
+		<ul>
+			<li><a href="https://www.facebook.com/profile.php?id=100007161211431&mibextid=ZbWKwL"><b>Facebook</b></a></li>
+			<li><a href="https://instagram.com/__mido_ahmad?igshid=MzMyNGUyNmU2YQ=="><b>instagram</b></a></li>
+			<li><a href="https://discord.com/invite/7vFKart7"><b>discord</b></a></li>
+		</ul>
 </div>
 <hr>
 
-<div class="team-member">
-	<img src="farah.jpg" alt="Team Member">
-	<h2>Farha Salah Mohamed mekki
-	</h2>
-	<p>Programmer</p>
-	<ul>
-		<li><a href="https://www.linkedin.com/in/farha-salah-56987a261?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">linkedin</a></li>
-	</ul>
-</div>
+
 
 
 
 <div class="team-member">
-	<img src="gana.jpg" alt="Team Member">
-	<h2>Gana Abo El-makarem</h2>
-	<p>stusdent in borg el arab Technological University and makeup artist</p>
+	<img src="ali.jpg" alt="Team Member">
+	<h2>Ali Abdelnaby Mahmoud</h2>
+	<p>Student at Borg el-arab technological university</p>
 	<ul>
-		<li><a href="https://www.facebook.com/profile.php?id=100090939221256&mibextid=ZbWKwL"><b>Facebook</b></a></li>
+		<li><a href="https://www.facebook.com/profile.php?id=100011648834658&mibextid=ZbWKwL"><b>Facebook</b></a></li>
 
 	</ul>
 </div>
-
-
-
+<hr>
 </div>
 </body>
 </html>
